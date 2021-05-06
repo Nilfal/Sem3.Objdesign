@@ -20,11 +20,9 @@ public class View {
         System.out.println("Start of new sale \n");
         controller.newSale();
         System.out.println("Begins to scan items\n");
-        String out = controller.scanItem("Apple",new Amount(2));
+        String out = controller.scanItem("Salt",new Amount(1));
         System.out.println(out);
-        out = controller.scanItem("Salt",new Amount(1));
-        System.out.println(out);
-        System.out.println("Total with tax");
+        System.out.println("Total to pay");
         out = controller.displayTotal();
         System.out.println(out);
     }

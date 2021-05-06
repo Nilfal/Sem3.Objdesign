@@ -48,7 +48,7 @@ public class Controller {
 
  public String displayTotal(){
 
-     return sale.getTotal().getTotal().toString();
+     return sale.getTotal().getTotalWithTax().toString();
 
  }
 

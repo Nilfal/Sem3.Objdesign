@@ -53,7 +53,7 @@ public class InvSys {
     }
 
     private void selItem() {
-        inv.put("Apple", new Item(new ItemDTO(new Amount(20), "Apple", new Amount(10)), "Apple", new Amount(Integer.MAX_VALUE)));
+        inv.put("Apple", new Item(new ItemDTO(new Amount(30), "Apple", new Amount(10)), "Apple", new Amount(Integer.MAX_VALUE)));
         inv.put("Biff", new Item(new ItemDTO(new Amount(35), "Biff", new Amount(10)), "Biff", new Amount(Integer.MAX_VALUE)));
         inv.put("Peppar", new Item(new ItemDTO(new Amount(45), "Peppar", new Amount(10)), "Peppar", new Amount(Integer.MAX_VALUE)));
         inv.put("Salt", new Item(new ItemDTO(new Amount(55), "Salt", new Amount(15)), "Salt", new Amount(Integer.MAX_VALUE)));

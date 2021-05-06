@@ -38,7 +38,7 @@ public class TestController {
         String expectedResult = "Varor: " + itemName + "\t" +
                 "Pris: " + price + "\t" +
                 "Skatt: " + tax + "\t" +
-                ", Antal: " + new Amount(1) + ", Totalt: " + price;
+                ", Antal: " + new Amount(1) + ", Totalt: " + price.plus(tax);
         assertEquals("RegItem inte samma Strings", expectedResult, actualResult);
     }
 
